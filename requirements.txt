@@ -1,4 +1,9 @@
 aiogram==3.4.1
 Pillow
 python-dotenv
+aiogram==3.4.1
+pydantic==2.4.2
+pydantic-core==2.10.1
+
+
 
