@@ -23,7 +23,7 @@ from aiogram.types import (
 )
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 from dotenv import load_dotenv
-load_dotenv("main.env")
+load_dotenv()
 
 
 # --- 1. SOZLAMALAR ---
@@ -293,4 +293,5 @@ async def main():
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
+
     asyncio.run(main())
